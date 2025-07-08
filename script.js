@@ -36,7 +36,7 @@ function displayData() {
 window.onload = displayData;
 
 //Inicializar contador de interacciones en Session Storage
-if (!sessionStorage.getItem('interactCount')) {
+if (!sessionStorage.getItem('interactionCount')) {
     sessionStorage.setItem('interactionCount', 0);
 }
 
